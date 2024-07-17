@@ -32,7 +32,7 @@ def fetch_ohlcv(symbol, timeframe, limit):
 def main():
     symbol = "BTC/USDT"
     timeframe = "1d"
-    limit = 1000
+    limit = 14
     data = fetch_ohlcv(symbol, timeframe, limit)
     print(data)
 
